@@ -36,7 +36,7 @@ const handleDelete =async () =>{
 
       
       // http://localhost:3000/
-      await axios.delete('https://nme360.com/api/blog',{
+      await axios.delete('http://localhost:3000/api/blog',{
         params: {
           id: blog._id
         }
