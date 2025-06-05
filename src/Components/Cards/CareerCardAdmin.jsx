@@ -28,7 +28,7 @@ const handleDelete =async () =>{
   }).then(async (result) => {
     if (result.isConfirmed) {
       
-      await axios.delete('https://nme360.com/api/career',{
+      await axios.delete('http://localhost:3000/api/career',{
         params: {
           id: card._id
         }

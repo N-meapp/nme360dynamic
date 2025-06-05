@@ -72,8 +72,6 @@ export default function Home() {
         <ConnectWithUsSectionAlternative setConnectWithScrollHeight={setConnectWithScrollHeight} />
         </div>
         
-
-      {/* </Scroll> */}
     </>
   );
 }
